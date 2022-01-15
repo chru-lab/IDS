@@ -12,3 +12,6 @@ ipython_config.py
 #   git rm -r .ipynb_checkpoints/
 .DS_Store
 __pycache__
+
+# Datei mit MRI-Datensätzen ist zu gross 
+MRI.npy
