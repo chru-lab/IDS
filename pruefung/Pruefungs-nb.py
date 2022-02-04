@@ -29,13 +29,11 @@
 import matplotlib.pyplot as plt
 import seaborn as sns  # Schönere Grafiken, wird für IDS nicht benötigt 
 import numpy as np
-from sklearn.metrics import r2_score
 from sklearn.linear_model import LinearRegression as lr
 from sklearn.metrics import mean_squared_error as mse
 from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split as split
 from sklearn.neighbors import KNeighborsClassifier as knn
-from sklearn.model_selection import train_test_split as split
 from sklearn.metrics import accuracy_score as score
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
@@ -413,6 +411,7 @@ from mytensor import plot_uvw_one_feature as plot1f
 # ### Tensorfasern
 # - höherdimensionales Analogon zu Zeilen / Spalten einer Matrix
 # - Entstehung durch 'Festhalten' aller Indizes bis auf einen
+# 
 # ![image-3.png](attachment:image-3.png)
 # 
 # Problem: Wir haben bis jetzt immer mit zweidimensionalen Datenstrukturen gearbeitet. 
